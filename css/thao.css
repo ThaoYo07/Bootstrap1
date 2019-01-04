@@ -1,0 +1,66 @@
+.promo{
+    background-color: #D3D3D3 !important;
+}
+.vilolet{
+    background-color: darkviolet;
+}
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #f0f0f0;
+}
+#header{
+    height: 50px;
+    background-color: #666;
+    color: #FFF;
+}
+.block-left {
+    float: left;
+    margin-top: 15px;
+}
+.block-right {
+    float: right;
+    margin-top: 15px;
+}
+.slogan {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.post-img {
+    background-color: #333;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+.content-news {
+    text-align: justify;
+}
+.post-block:last-child span {
+    float: right;
+}
+.post-img p {
+    color: #FFF;
+    padding: 90px;
+    font-size: 24px;
+}
+.outline {
+    border: 1px solid #808080;
+}
+.pinside40 {
+    padding: 40px;
+}
+.plr40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pb20 {
+    padding-bottom: 20px;
+}
+.color-white {
+    color: #FFF;
+}

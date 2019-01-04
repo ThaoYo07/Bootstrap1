@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+     <!--jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="">LOGO</a>
+        <button type="button"
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="">Link 1</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#"
+                       id="dropdown-menu" data-toggle="dropdown">Link 2</a>
+                    <div class="dropdown-menu"
+                         aria-describedby="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 2.1</a>
+                        <a class="dropdown-item" href="#">Link 2.2</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="">Link 3</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-lg-8 col-sm-9">
+            <h1 class="my-2">Page heading <small>secondary text</small></h1>
+            <hr/>
+            <h2 class="text-primary">Blog Post Title</h2>
+            <h4>By <span class="text-primary">Start Bootstrap</span></h4>
+            <p><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Posted on August 28, 2013 at 10.00 PM</p>
+            <hr/>
+            <img class="rounded-circle" src="https://www.stanhopestreetprimary.ie/wp-content/uploads/2013/11/900x300.png" alt="">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <button class="btn btn-info">Read more</button>
+            <hr/>
+            <!--phân trang-->
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-sm-3">
+            col2
+        </div>
+    </div>
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#link1">Link 1</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#link2">Link 2</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#link3">Link 3</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="link1">Link 1</div>
+        <div class="tab-pane" id="link2">Link 2</div>
+        <div class="tab-pane" id="link3">Link 3</div>
+    </div>
+</div>
+</body>
+</html>
